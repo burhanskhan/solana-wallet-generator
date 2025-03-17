@@ -1,0 +1,29 @@
+{
+  "name": "solana-wallet-generator",
+  "version": "1.0.0",
+  "description": "This application will generate X amount of Solana wallets and store them in a directory.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "Burhan Khan (hello@burhankhan.tech)",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.70.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.6.7",
+    "postcss": "^8.4.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.5"
+  }
+}

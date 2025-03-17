@@ -1,0 +1,16 @@
+# Node modules
+node_modules
+
+# Build output
+dist
+
+# IDE-specific files (optional, but common)
+.idea
+.vscode
+
+# Environment files (optional, but good practice)
+.env
+.env.*
+
+# Wallets directory - VERY IMPORTANT TO IGNORE FOR SECURITY
+wallets/
