@@ -2,6 +2,8 @@
 
 This application allows you to generate a specified number of Solana wallets. The generated wallets (public and secret keys) are stored locally in the `wallets` directory.
 
+![Solana Wallet Generator](./assets//screenshot.png)
+
 **SECURITY WARNING:** The `wallets` directory contains secret keys. **DO NOT** commit this directory to version control. It is included in the `.gitignore` file to prevent accidental commits. Handle these keys with extreme care. For production use, consider a secure key management solution.
 
 ## Prerequisites
